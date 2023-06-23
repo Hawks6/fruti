@@ -5,4 +5,4 @@ x = st.slider('Hunger scale',0,10)
 st.write("Your hunger rating is",x, 'so you should consume around', x * 50,"calories")
 if st.button('Submit'):
     st.success("successfully submitted")
-    st.write('open [MENU](https://fruti-nca5gzi9h2j.streamlit.app/)')
+    st.caption('open [MENU](https://fruti-nca5gzi9h2j.streamlit.app/)')
