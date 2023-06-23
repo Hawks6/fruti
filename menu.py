@@ -1,5 +1,6 @@
 import streamlit as st
 st.title("MENU:")
+f =open('data.txt','r')
 col1, col2, col3 = st.columns(3, gap= "large")
 
 with col1:
