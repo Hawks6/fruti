@@ -1,5 +1,5 @@
 import streamlit as st
-import Deta as deta
+from deta import Deta
 DETA_KEY = "d0kcaaayith_CVRFVkGkum8n8EUxpQYPXMJfbDdUPYUM"
 deta = Deta(DETA_KEY)
 db = deta.Base("hkth")
