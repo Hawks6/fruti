@@ -5,7 +5,7 @@ x= f.readline()
 st.markdown(x)
 col1, col2, col3 = st.columns(3, gap= "large")
 with col1:
-   st.header("Freach Fries")
+   st.header("Freach Fries",x)
    st.image("https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",width=200)
 
 with col2:
