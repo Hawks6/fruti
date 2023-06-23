@@ -2,9 +2,9 @@ import streamlit as st
 st.title("MENU:")
 f =open('data.txt','r')
 col1, col2, col3 = st.columns(3, gap= "large")
-
+st.text(f)
 with col1:
-   st.header("Freach Fries",f)
+   st.header("Freach Fries")
    st.image("https://www.awesomecuisine.com/wp-content/uploads/2009/05/french-fries.jpg",width=200)
 
 with col2:
