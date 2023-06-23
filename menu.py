@@ -2,7 +2,7 @@ import streamlit as st
 st.title("MENU:")
 f=open('data.txt','r')
 x= f.readline()
-st.write(x)
+st.markdown(x)
 col1, col2, col3 = st.columns(3, gap= "large")
 with col1:
    st.header("Freach Fries")
