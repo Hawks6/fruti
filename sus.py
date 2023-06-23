@@ -12,7 +12,7 @@ def form():
         weight = st.number_input("Enter your **Weight** ! (kgs)",0,120)
         height = st.number_input("Enter your **Height** ! (cm)",0,400)
         choice = st.selectbox('Select your **Gender**',('Male','Female','Other'))
-        if submission = st.form_submit_button(label = "Submit"):
+        if st.form_submit_button(label = "Submit"):
         # insert_data(name,age,weight,height,choice)
         # if submission == True:
         #     insert_data(name,age,weight,height,choice)
