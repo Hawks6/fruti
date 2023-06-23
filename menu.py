@@ -1,6 +1,7 @@
 import streamlit as st
 st.title("MENU:")
-f= data.readline()
+f=open('data.txt','r')
+x= f.readline()
 col1, col2, col3 = st.columns(3, gap= "large")
 with col1:
    st.header("Freach Fries")
