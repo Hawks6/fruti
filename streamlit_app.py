@@ -1,6 +1,6 @@
 import streamlit as st
 
-st.title("Save food save life!:moon:")
+st.title("Save food save lives!:heart:")
 st.header("**How hungry are you?**")
 x = st.slider(" ",1,5)  
 
