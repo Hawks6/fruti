@@ -6,27 +6,27 @@ x = st.slider('Hunger scale',0,5)
 
 
 st.write('we recommend you consume around', x * 200,"calories")
-if(x=200):
+if(x==0):
     if st.button('Submit'):
         st.success("successfully submitted")
         st.caption('open [MENU]()')
 
-if(x=400):
+if(x==2):
     if st.button('Submit'):
         st.success("successfully submitted")
         st.caption('open [MENU]()')
 
-if(x=600):
+if(x==4):
     if st.button('Submit'):
         st.success("successfully submitted")
         st.caption('open [MENU]()')
 
-if(x=800):
+if(x==6):
     if st.button('Submit'):
         st.success("successfully submitted")
         st.caption('open [MENU]()')
 
-if(x=1000):
+if(x==8):
     if st.button('Submit'):
         st.success("successfully submitted")
         st.caption('open [MENU]()')
