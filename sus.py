@@ -5,7 +5,7 @@ import streamlit as st
 # db = deta.Base("hkth")
 
 def form():
-    st.write("**FORM**")
+    st.write("**LOGIN**")
     with st.form(key = "information form"):
         name = st.text_input("Enter your **Name**")
         age = st.slider("Select your **Age** !",0,99)
