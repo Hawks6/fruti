@@ -48,7 +48,7 @@ with col4:
 
 
 with col5:
-    st.subheader("Pepperoni Pizza")
+   st.subheader("Pepperoni Pizza")
    st.caption("700 calories")
    st.image("https://www.simplyrecipes.com/thmb/I4razizFmeF8ua2jwuD0Pq4XpP8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-4-82c60893fcad4ade906a8a9f59b8da9d.jpg",width=200)
    st.number_input(label="Quantity", step=1, min_value=0, key="f")
