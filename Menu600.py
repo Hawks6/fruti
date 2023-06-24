@@ -12,7 +12,7 @@ with col1:
    st.number_input(label="Quantity", step=1, min_value=0, key="e")
    if st.button('Add', key="n"):
       st.success('Best Before : 4 Hours, To be Consumed Immediately')
-  
+  st.text_input(label="Leave a comment", key="ob");
 
 with col2:
    st.subheader("Pepperoni Pizza")
@@ -21,7 +21,7 @@ with col2:
    st.number_input(label="Quantity", step=1, min_value=0, key="f")
    if st.button('Add', key="o"):
       st.success('Best Before : 4 Hours, Refridgerate below 40 Farenheit and Reheat if consuming later')
-  
+  st.text_input(label="Leave a comment", key="ib");
 
 with col3:
    st.subheader("Mac n Cheese")
@@ -30,7 +30,7 @@ with col3:
    st.number_input(label="Quantity", step=1, min_value=0, key="g")
    if st.button('Add', key="p"):
       st.success('Best Before : 3 Hours, Store in an Air-Tight Container and Reheat if consuming later')
- 
+ st.text_input(label="Leave a comment", key="ub");
 
 st.divider()
    
@@ -44,7 +44,7 @@ with col4:
     st.number_input(label="Quantity", step=1, min_value=0, key="a")
     if st.button('Add', key="j"):
       st.success('Best Before : 2 Hours, Consume Immediately')
-   
+   st.text_input(label="Leave a comment", key="yb");
 
    
 
@@ -56,7 +56,7 @@ with col5:
     if st.button('Add', key="k" ):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat if consuming later')
    
-   
+   st.text_input(label="Leave a comment", key="tb");
 
 with col6:
    st.subheader("Chicken Shawarma")
@@ -65,7 +65,7 @@ with col6:
    st.number_input(label="Quantity", step=1, min_value=0, key="c")
    if st.button('Add', key="l"):
       st.success('Best Before : 6 Hours, Refridgerate and Reheat if consuming later')
-
+   st.text_input(label="Leave a comment", key="rb");
 col7, col8, col9 = st.columns(3,gap= "large")
 
 with col7:
@@ -75,7 +75,7 @@ with col7:
    st.number_input(label="Quantity", step=1, min_value=0, key="d")
    if st.button('Add', key="m"):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat until steaming hot if consuming later')
-
+   st.text_input(label="Leave a comment", key="eb");
 with col8:
    st.subheader("Chole Bhature")
    st.caption("900 calories")
@@ -83,7 +83,7 @@ with col8:
    st.number_input(label="Quantity", step=1, min_value=0, key="h")
    if st.button('Add', key="q"):
       st.success('Best Before : 4 Hours, To be Consumed Piping Hot and Fresh')
-
+   st.text_input(label="Leave a comment", key="wb");
 with col9:
    st.subheader("Behrouz Biryani")
    st.caption("1000 calories, serves 2")
@@ -91,3 +91,4 @@ with col9:
    st.number_input(label="Quantity", step=1, min_value=0, key="i")
    if st.button('Add', key="r"):
       st.success('Best Before : 8 Hours, Store in a cool, dry place.')
+   st.text_input(label="Leave a comment", key="qb");
