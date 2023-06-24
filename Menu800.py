@@ -52,7 +52,7 @@ with col5:
     if st.button('Add', key="k" ):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat if consuming later')
   
-   st.text_input(label="Leave a comment", key="gb");
+    st.text_input(label="Leave a comment", key="gb");
 
 with col6:
    st.subheader("Chicken Shawarma")
@@ -61,7 +61,7 @@ with col6:
    st.number_input(label="Quantity", step=1, min_value=0, key="c")
    if st.button('Add', key="l"):
       st.success('Best Before : 6 Hours, Refridgerate and Reheat if consuming later')
-  st.text_input(label="Leave a comment", key="fb");
+   st.text_input(label="Leave a comment", key="fb");
 
 col7, col8, col9 = st.columns(3,gap= "large")
 
@@ -89,4 +89,4 @@ with col9:
    st.number_input(label="Quantity", step=1, min_value=0, key="f")
    if st.button('Add', key="o"):
       st.success('Best Before : 4 Hours, Refridgerate below 40 Farenheit and Reheat if consuming later')
-    st.text_input(label="Leave a comment", key="qb");
+   st.text_input(label="Leave a comment", key="qb");
