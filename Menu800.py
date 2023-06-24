@@ -20,7 +20,7 @@ with col2:
    st.number_input(label="Quantity", step=1, min_value=0, key="h")
    if st.button('Add', key="q"):
       st.success('Best Before : 4 Hours, To be Consumed Piping Hot and Fresh')
-  st.text_input(label="Leave a comment", key="kb"); 
+   st.text_input(label="Leave a comment", key="kb"); 
 with col3:
    st.subheader("Behrouz Biryani")
    st.caption("1000 calories, serves 2")
