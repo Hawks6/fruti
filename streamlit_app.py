@@ -1,8 +1,8 @@
 import streamlit as st
 
 st.title("Save food save life!:moon:")
-st.header("**Hunger meter**")
-x = st.slider('**How hungry are you?**',1,5)  
+st.header("**How hungry are you?**")
+x = st.slider(1,5)  
 
 
 st.write('we recommend you consume around', x * 200,"calories")
