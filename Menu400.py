@@ -21,7 +21,7 @@ with col2:
    st.number_input(label="Quantity", step=1, min_value=0, key="d")
    if st.button('Add', key="m"):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat until steaming hot if consuming later')
-  st.text_input(label="Leave a comment", key="ib");
+   st.text_input(label="Leave a comment", key="ib");
 
 with col3:
    st.subheader("Chicken Burger Meal")
@@ -43,7 +43,7 @@ with col4:
     st.number_input(label="Quantity", step=1, min_value=0, key="a")
     if st.button('Add', key="j"):
       st.success('Best Before : 2 Hours, Consume Immediately')
-   st.text_input(label="Leave a comment", key="yb");
+    st.text_input(label="Leave a comment", key="yb");
 
    
 
@@ -54,7 +54,7 @@ with col5:
     st.number_input(label="Quantity", step=1, min_value=0, key="b")
     if st.button('Add', key="k" ):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat if consuming later')
-   st.text_input(label="Leave a comment", key="tb");
+    st.text_input(label="Leave a comment", key="tb");
    
 
 with col6:
