@@ -39,7 +39,7 @@ col4, col5, col6 = st.columns(3,gap= "large")
 
 with col4:
    st.subheader("Chicken Shawarma")
-   st.caption("400 calories")
+   st.caption('700 calories")
    st.image("https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Shawarma-750x750.jpg",width=200)
    st.number_input(label="Quantity", step=1, min_value=0, key="c")
    if st.button('Add', key="l"):
@@ -49,7 +49,7 @@ with col4:
 
 with col5:
    st.subheader("Pepperoni Pizza")
-   st.caption("700 calories")
+   st.caption("600 calories")
    st.image("https://www.simplyrecipes.com/thmb/I4razizFmeF8ua2jwuD0Pq4XpP8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/__opt__aboutcom__coeus__resources__content_migration__simply_recipes__uploads__2019__09__easy-pepperoni-pizza-lead-4-82c60893fcad4ade906a8a9f59b8da9d.jpg",width=200)
    st.number_input(label="Quantity", step=1, min_value=0, key="f")
    if st.button('Add', key="o"):
@@ -59,7 +59,7 @@ with col5:
 
 with col6:
    st.subheader("Chicken Burger Meal")
-   st.caption("600 calories")
+   st.caption("500 calories")
    st.image("https://s7d1.scene7.com/is/image/mcdonalds/chickenburgermeal:1-3-product-tile-desktop?wid=765&hei=472&dpr=off",width=200)
    st.number_input(label="Quantity", step=1, min_value=0, key="e")
    if st.button('Add', key="n"):
