@@ -39,7 +39,7 @@ col4, col5, col6 = st.columns(3,gap= "large")
 
 with col4:
    st.subheader("Chicken Shawarma")
-   st.caption('700 calories")
+   st.caption("700 calories")
    st.image("https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Shawarma-750x750.jpg",width=200)
    st.number_input(label="Quantity", step=1, min_value=0, key="c")
    if st.button('Add', key="l"):
