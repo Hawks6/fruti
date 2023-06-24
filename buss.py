@@ -2,8 +2,8 @@ import streamlit as st
 header_left, header_mid, header_right = st.columns([1,3,1],gap = 'large')
 
 with header_mid:
-    st.title('/tManna  ')
-    st.title('Client Dashboard')
+    st.title('Manna ')
+    # st.title('Client Dashboard')
     st.caption('Here are Some NGOs in your location you could consider :')
 
 st.divider()
