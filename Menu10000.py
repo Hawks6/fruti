@@ -12,7 +12,7 @@ with col1:
    st.number_input(label="Quantity", step=1, min_value=0, key="i")
    if st.button('Add', key="r"):
       st.success('Best Before : 8 Hours, Store in a cool, dry place.')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="a");
 with col2:
    st.subheader("French Fries")
    st.caption("200 calories")
@@ -20,7 +20,7 @@ with col2:
    st.number_input(label="Quantity", step=1, min_value=0, key="a")
    if st.button('Add', key="j"):
       st.success('Best Before : 2 Hours, Consume Immediately')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="b");
 with col3:
    st.subheader("Omlette")
    st.caption("300 calories")
@@ -28,7 +28,7 @@ with col3:
    st.number_input(label="Quantity", step=1, min_value=0, key="b")
    if st.button('Add', key="k" ):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat if consuming later')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment",key="c");
 st.divider()
 
 col4, col5, col6 = st.columns(3,gap= "large")
@@ -40,7 +40,7 @@ with col4:
    st.number_input(label="Quantity", step=1, min_value=0, key="c")
    if st.button('Add', key="l"):
       st.success('Best Before : 6 Hours, Refridgerate and Reheat if consuming later')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment" , key="d");
 
 
 with col5:
@@ -50,7 +50,7 @@ with col5:
    st.number_input(label="Quantity", step=1, min_value=0, key="d")
    if st.button('Add', key="m"):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat until steaming hot if consuming later')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="e");
 
 with col6:
    st.subheader("Chicken Burger Meal")
@@ -59,7 +59,7 @@ with col6:
    st.number_input(label="Quantity", step=1, min_value=0, key="e")
    if st.button('Add', key="n"):
       st.success('Best Before : 4 Hours, To be Consumed Immediately')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="f");
 
 col7, col8, col9 = st.columns(3,gap= "large")
 
@@ -70,7 +70,7 @@ with col7:
    st.number_input(label="Quantity", step=1, min_value=0, key="f")
    if st.button('Add', key="o"):
       st.success('Best Before : 4 Hours, Refridgerate below 40 Farenheit and Reheat if consuming later')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="h");
 
 
 with col8:
@@ -80,7 +80,7 @@ with col8:
    st.number_input(label="Quantity", step=1, min_value=0, key="g")
    if st.button('Add', key="p"):
       st.success('Best Before : 3 Hours, Store in an Air-Tight Container and Reheat if consuming later')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="j");
 
 with col9:
    st.subheader("Chole Bhature")
@@ -89,5 +89,5 @@ with col9:
    st.number_input(label="Quantity", step=1, min_value=0, key="h")
    if st.button('Add', key="q"):
       st.success('Best Before : 4 Hours, To be Consumed Piping Hot and Fresh')
-   st.text_input(label="Leave a comment");
+   st.text_input(label="Leave a comment", key="k");
 
