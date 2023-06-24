@@ -12,7 +12,7 @@ with col1:
    st.number_input(label="Quantity", step=1, min_value=0, key="e")
    if st.button('Add', key="n"):
       st.success('Best Before : 4 Hours, To be Consumed Immediately')
-  st.text_input(label="Leave a comment", key="ob");
+   st.text_input(label="Leave a comment", key="ob");
 
 with col2:
    st.subheader("Pepperoni Pizza")
@@ -21,7 +21,7 @@ with col2:
    st.number_input(label="Quantity", step=1, min_value=0, key="f")
    if st.button('Add', key="o"):
       st.success('Best Before : 4 Hours, Refridgerate below 40 Farenheit and Reheat if consuming later')
-  st.text_input(label="Leave a comment", key="ib");
+   st.text_input(label="Leave a comment", key="ib");
 
 with col3:
    st.subheader("Mac n Cheese")
@@ -30,7 +30,7 @@ with col3:
    st.number_input(label="Quantity", step=1, min_value=0, key="g")
    if st.button('Add', key="p"):
       st.success('Best Before : 3 Hours, Store in an Air-Tight Container and Reheat if consuming later')
- st.text_input(label="Leave a comment", key="ub");
+   st.text_input(label="Leave a comment", key="ub");
 
 st.divider()
    
@@ -44,7 +44,7 @@ with col4:
     st.number_input(label="Quantity", step=1, min_value=0, key="a")
     if st.button('Add', key="j"):
       st.success('Best Before : 2 Hours, Consume Immediately')
-   st.text_input(label="Leave a comment", key="yb");
+    st.text_input(label="Leave a comment", key="yb");
 
    
 
@@ -56,7 +56,7 @@ with col5:
     if st.button('Add', key="k" ):
       st.success('Best Before : 4 Hours, Refridgerate and Reheat if consuming later')
    
-   st.text_input(label="Leave a comment", key="tb");
+    st.text_input(label="Leave a comment", key="tb");
 
 with col6:
    st.subheader("Chicken Shawarma")
